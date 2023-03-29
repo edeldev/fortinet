@@ -12,18 +12,37 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 <body>
+
+    <div class="d-block d-md-none">
+        <nav class="d-flex justify-content-between align-items-center px-3 py-3">
+            <img src="build/img/fortinet.png" alt="logo" class="logo">
+            <i class="bi bi-list" id="menu"></i>
+
+        </nav>
+        <div class="d-none" id="mostrar">
+            <ul class="list-unstyled d-flex flex-column align-items-center gap-2">
+                <li><a class="nav-link text-primary" href="#quees"></a> ¿Qué es?</li>
+                <li><a href="#ciberseguridad"></a> Ciberseguridad</li>
+                <li><a href="#funciones"></a> Funciones</li>
+                <li><a href="#servicios"></a> Servicios</li>
+            </ul>
+        </div>
+    </div>
     
     <header class="header">
         <div class="px-5 py-4">
-            <nav class="d-flex flex-column flex-md-row align-items-center justify-content-between">
-                <img src="build/img/fortinet.png" alt="logo" class="logo">
-            
-                <ul class="nav fs-5 d-flex flex-column flex-md-row text-center">
-                    <li><a class="nav-link text-primary" href="#quees">¿Qué es?</a></li>
-                    <li><a class="nav-link text-primary" href="#ciberseguridad">Ciberseguridad</a></li>
-                    <li><a class="nav-link text-primary" href="#funciones">Funciones</a></li>
-                </ul>
-            </nav>
+            <div class="d-none d-md-block">
+                <nav class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+                    <img src="build/img/fortinet.png" alt="logo" class="logo">
+                
+                    <ul class="nav fs-5 d-flex flex-column flex-md-row text-center">
+                        <li><a class="nav-link text-primary" href="#quees">¿Qué es?</a></li>
+                        <li><a class="nav-link text-primary" href="#ciberseguridad">Ciberseguridad</a></li>
+                        <li><a class="nav-link text-primary" href="#funciones">Funciones</a></li>
+                        <li><a class="nav-link text-primary" href="#servicios">Servicios</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
         
         <div class="container-xl">
@@ -147,10 +166,141 @@
         </div>
     </section>
 
+    <section class="bg-white" id="servicios">
+        <div class="container-xl py-4">
+            <h2 class="text-center">Servicios</h2>
+            <div class="row justify-content-center align-items-center py-3">
+                <div class="col-md-5">
+                    <h3 class="fs-3 fw-normal">Fortinet</h3>
+                    <p class="fs-4">Experiencia a su servicio</p>
+                    <a class="nav-link text-white bg-danger d-inline py-2 px-5 border" href="https://drive.google.com/file/d/1-h58-yFMyPyzjOD9_2DOVBLvpqSLs6-q/view?usp=share_link" target="_blank">Descargue Tríptico</a>
+                </div>
+
+                <div class="col-md-5">
+                    <img class="img-fluid pt-5 pt-md-0" src="build/img/triptico.jpeg" alt="">
+                </div>
+            </div>
+
+            <h3 class="pt-5">Experiencia a su Servicio</h3>
+            <div class="row pt-3">
+                <div class="col-md-4 py-4 py-md-0">
+                    <div class="d-flex align-items-center gap-2">
+                        <img src="build/img/call.svg" alt="call" width="50">
+                        <p class="m-0">Soporte global las 24 horas, los 7 días de la semana</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-4 py-md-0">
+                    <div class="d-flex align-items-center gap-2">
+                        <img src="build/img/usuario.svg" alt="usuario" width="50">
+                        <p class="m-0">3 centros regionales de experiencia</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-4 py-md-0">
+                    <div class="d-flex align-items-center gap-2">
+                        <img src="build/img/world-conexion.svg" alt="conexion" width="50">
+                        <p class="m-0">Más de 200 depósitos dentro del país</p>
+                    </div>
+                </div>
+
+                <div class="row py-0 py-md-5">
+                    <div class="col-md-4 py-4 py-md-0">
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="build/img/aprobado.svg" alt="aprobado" width="50">
+                            <p class="m-0">Más de 1400 recursos globales certificados por la NSE y la industria</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 py-4 py-md-0">
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="build/img/edificio.svg" alt="edificio" width="50">
+                            <p class="m-0">23 centros de soporte y 40 depósitos regionales</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 py-4 py-md-0">
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="build/img/reloj.svg" alt="reloj" width="50">
+                            <p class="m-0">Disponibilidad acelerada de reemplazo de hardware de 4 horas</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center py-4">
+                <img class="img-fluid" src="build/img/services-map.svg" alt="services">
+            </div>
+
+            <div class="row justify-content-center text-center text-md-start">
+                <div class="col-md-3">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start fw-bold">
+                        <div class="circle red">&nbsp;</div>
+                        COE regional
+                    </div>
+                    <ul class="list-unstyled px-3">
+                        <li>Vancouver</li>
+                        <li>Sophia Antipolis</li>
+                        <li>Kuala Lumpur</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="d-flex align-items-center fw-bold justify-content-center justify-content-md-start">
+                        <div class="circle blue">&nbsp;</div>
+                        TAC regional de AMER
+                    </div>
+                    <ul class="list-unstyled px-3">
+                        <li>Ottawa</li>
+                        <li>Chicago</li>
+                        <li>Sunnyvale</li>
+                        <li>Plano</li>
+                        <li>Sunrise</li>
+                        <li>Ciudad de México</li>
+                        <li>Bogotá</li>
+                        <li>Uberlandia</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="d-flex align-items-center fw-bold justify-content-center justify-content-md-start">
+                        <div class="circle green">&nbsp;</div>
+                        TAC regional de AMER
+                    </div>
+                    <ul class="list-unstyled px-3">
+                        <li>Bangalore</li>
+                        <li>Dubái</li>
+                        <li>Frankfurt</li>
+                        <li>Praga</li>
+                        <li>Lisboa</li>
+                        <li>Tel Aviv</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="d-flex align-items-center fw-bold justify-content-center justify-content-md-start">
+                        <div class="circle purple">&nbsp;</div>
+                        TAC regional de APAC
+                    </div>
+                    <ul class="list-unstyled px-3">
+                        <li>Pekín</li>
+                        <li>Sídney</li>
+                        <li>Seúl</li>
+                        <li>Tokio</li>
+                        <li>Manila</li>
+                        <li>Singapur</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="bg-secondary">
         <div class="container-xl py-4">
             <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
                 <img src="build/img/fortinet.png" alt="logo-footer" width="200" class="pb-3 pb-md-0">
+                <p class="m-0 fw-bold text-danger pb-3 pb-md-0">GRUPO IAS 7</p>
                 <img src="build/img/umm logo.png" alt="umm" width="200">
             </div>
 
@@ -161,5 +311,7 @@
         </div>
     </footer>    
 
+
+    <script src="main.js"></script>
 </body>
 </html>
